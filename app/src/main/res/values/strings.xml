@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">HappyFarm</string>
+    <string-array name="sections">
+        <item>@string/wodecaidi</item>
+        <item>@string/nongchangdongtai</item>
+    </string-array>
+
+    <!-- slide Menu-->
+    <string name="item_order">订单记录</string>
+    <string name="item_address">地址管理</string>
+    <string name="item_farm_info">农场信息</string>
+    <string name="item_advice">意见反馈</string>
+    <string name="item_user_setting">账户设置</string>
+    <string name="item_phone">客服电话</string>
+    <string name="item_help">帮助</string>
+    <string name="item_top_left">种菜记录</string>
+    <string name="item_top_right">收菜记录</string>
+
+    <string name="get_verification_code">获取验证码</string>
+    <string name="verification_code">验证码</string>
+    <string name="login">登录</string>
+    <string name="login_agree_ueser_protocol">登录即同意《农场用户协议》</string>
+
+
+    <!--index 菜单-->
+    <string name="item_1">种菜</string>
+    <string name="item_2">选菜</string>
+    <string name="item_3">市集</string>
+    <string name="item_4">攻略</string>
+    <string name="item_5">友人</string>
+    <string name="item_6">通知</string>
+    <string name="item_7">动态</string>
+
+    <!--城市名 -->
+    <string name="suzhou">苏州</string>
+
+
+    <!--其他引用 -->
+    <string name="nongchangdongtai">农场动态</string>
+    <string name="wodecaidi">我的菜地</string>
+    <string name="username">username</string>
+    <string name="city_choose">选择城市</string>
+    <string name="tip_no_address">您现在还没有地址，赶紧添加吧</string>
+    <string name="address_manager">地址管理</string>
+    <string name="address_add">新增</string>
+
+</resources>

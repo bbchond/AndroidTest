@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!--种菜-->
+        <LinearLayout
+            android:id="@+id/ll_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/zhongcai"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_1"/>
+        </LinearLayout>
+        <!--选菜-->
+        <LinearLayout
+            android:id="@+id/ll_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/xuancai"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_2"/>
+        </LinearLayout>
+        <!--市集-->
+        <LinearLayout
+            android:id="@+id/ll_3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/shiji"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_3"/>
+        </LinearLayout>
+        <!--攻略-->
+        <LinearLayout
+            android:id="@+id/ll_4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/yanghu"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_4"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/hf_dip_04"
+        android:orientation="horizontal">
+        <!--友人-->
+        <LinearLayout
+            android:id="@+id/ll_5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/youren"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_5"/>
+        </LinearLayout>
+        <!--tongzhi-->
+        <LinearLayout
+            android:id="@+id/ll_6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/tongzhi" />
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_6"/>
+        </LinearLayout>
+        <!--动态-->
+        <LinearLayout
+            android:id="@+id/ll_7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/hf_dip_48"
+                android:layout_height="@dimen/hf_dip_48"
+                android:src="@mipmap/dongtai"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_7"/>
+        </LinearLayout>
+        <!--攻略-->
+        <LinearLayout
+            android:id="@+id/ll_8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/zhongcai"/>
+
+            <TextView
+                style="@style/function_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_4"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

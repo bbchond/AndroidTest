@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_home"
+            android:checked="true"
+            android:icon="@mipmap/orderlisticon"
+            android:title="@string/item_order" />
+
+        <item
+            android:id="@+id/item_vip"
+            android:checkable="false"
+            android:icon="@mipmap/addresssicon"
+            android:title="@string/item_address" />
+
+        <item
+            android:id="@+id/item_download"
+            android:checkable="false"
+            android:icon="@mipmap/farminfoicon"
+            android:title="@string/item_farm_info" />
+
+    </group>
+
+    <group
+        android:id="@+id/group_user"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item_favourite"
+            android:icon="@mipmap/suggestion"
+            android:title="@string/item_advice" />
+
+        <item
+            android:id="@+id/item_history"
+            android:icon="@mipmap/selfseticon"
+            android:title="@string/item_user_setting" />
+
+
+        <item
+            android:id="@+id/item_group"
+            android:icon="@mipmap/phoneicon"
+            android:title="@string/item_phone" />
+        <item
+            android:id="@+id/item_tracker"
+            android:icon="@mipmap/helpicon"
+            android:title="@string/item_help" />
+
+    </group>
+
+</menu>

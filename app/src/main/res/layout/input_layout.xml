@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_phone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hf_dip_48"
+        android:layout_marginTop="@dimen/hf_dip_20">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/hf_dip_20"
+            android:background="@null"
+            android:minWidth="@dimen/hf_dip_100"
+            android:text="18852911112" />
+
+        <View
+            android:layout_width="@dimen/hf_dip_01"
+            android:layout_height="@dimen/hf_dip_40"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/hf_dip_20"
+            android:layout_toStartOf="@+id/tv_verification_code"
+            android:background="@color/gray_dark" />
+
+        <TextView
+            android:id="@+id/tv_verification_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/hf_dip_20"
+            android:gravity="center"
+            android:minWidth="@dimen/hf_dip_80"
+            android:text="@string/get_verification_code" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/hf_dip_10"
+        android:layout_marginRight="@dimen/hf_dip_10"
+        android:background="@color/gray_dark" />
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hf_dip_48"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:background="@null"
+        android:gravity="center_vertical"
+        android:hint="@string/verification_code" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="@dimen/hf_dip_10"
+        android:layout_marginRight="@dimen/hf_dip_10"
+        android:background="@color/gray_dark" />
+</LinearLayout>
